@@ -1,0 +1,8 @@
+string brain_type               # Type of the brain (currently "py" or "h5"
+string data_type                # Type of data in brain_data: text or base64
+string brain_data               # Brain data field
+string brain_populations        # Type of the brain populations: json
+---
+string error_message            # Error message
+int32 error_line                # Line in code where error occured
+int32 error_column              # Column in code where error occured

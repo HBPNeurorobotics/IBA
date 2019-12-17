@@ -1,0 +1,3 @@
+string timeout                    # the time at which the simulation will timeout
+---
+bool success

@@ -1,0 +1,5 @@
+string object_id
+cle_ros_msgs/Pose new_pose
+---
+bool success
+string error_message

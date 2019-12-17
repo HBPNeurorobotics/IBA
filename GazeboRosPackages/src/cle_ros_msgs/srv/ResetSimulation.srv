@@ -1,0 +1,12 @@
+int32 reset_type
+int32 RESET_ROBOT_POSE=0    # Value for resetting the robot pose to the last saved one
+int32 RESET_FULL=1          # Value for resetting the whole experiment to the last saved configuration
+int32 RESET_WORLD=2         # Value for resetting the environment to the last saved SDF version
+int32 RESET_BRAIN=3         # Value for resetting the brain to the last version
+int32 RESET_OLD=255         # Backwards compatibility value to be removed once the reset is fully implemented
+string world_sdf
+string brain_path
+cle_ros_msgs/ExperimentPopulationInfo[] populations 
+---
+bool success                # True if the service run correctly, False otherwise
+string error_message        # Useful possible comment for debug purposes

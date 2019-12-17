@@ -1,0 +1,4 @@
+cle_ros_msgs/RobotInfo robot
+---
+bool success                # True if the service run correctly, False otherwise
+string error_message        # Useful possible comment for debug purposes

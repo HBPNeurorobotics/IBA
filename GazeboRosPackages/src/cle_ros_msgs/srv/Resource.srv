@@ -1,0 +1,6 @@
+string resource_type        # The type of the resource
+string resource_path        # The path of the resource
+string command              # The operation to be carried out on the resource
+---
+bool success                # True if the service run correctly, False otherwise
+string error_message        # Useful possible comment for debug purposes

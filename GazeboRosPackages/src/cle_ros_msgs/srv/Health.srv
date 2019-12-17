@@ -1,0 +1,3 @@
+---
+string status			  # OK, WARNING or CRITICAL (usual nagios status)
+string info               # A message containing more information about the status

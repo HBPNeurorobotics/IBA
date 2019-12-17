@@ -1,0 +1,5 @@
+---
+bool supports_live_edit_brain
+bool supports_live_edit_tf
+bool supports_pause_resume
+bool supports_reset

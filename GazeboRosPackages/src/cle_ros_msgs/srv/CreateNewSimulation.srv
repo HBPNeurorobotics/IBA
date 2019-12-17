@@ -1,0 +1,12 @@
+string exd_config_file            # path of experiment configuration file
+string gzserver_host              # host type 'local' or 'lugano'
+string reservation                # name of a reservation on the vizcluster, e.g., "sp10-user-workshop"
+int32 brain_processes             # number of brain processes (overrides experiment configuration)
+int32 sim_id                      # simulation ID
+string timeout                    # the simulation will timeout
+string timeout_type               # the type of simulation timeout
+string playback_path              # path to simulation recording to play (if any)
+string token                      # the token of the request to use for storage access
+string ctx_id                     # the ctx_id if collab based simulation
+string experiment_id              # the experiment_id of the simulation needed to save files in the storage
+---

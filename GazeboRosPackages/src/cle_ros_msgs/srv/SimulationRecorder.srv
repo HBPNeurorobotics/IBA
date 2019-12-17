@@ -1,0 +1,9 @@
+int32 request_type      # See valid request type constants below
+int32 STATE=0           # Query if the recorder is running
+int32 START=1           # Start the recorder
+int32 STOP=2            # Stop the recorder, save recording
+int32 CANCEL=3          # Stop the recorder, discard recording
+int32 RESET=4           # Discard any saved recordings and delete tmp dir
+---
+bool value              # Query result or success of command
+string message          # A human readable message for status/error

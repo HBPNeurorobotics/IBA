@@ -1,0 +1,2 @@
+---
+bool simulation_running     # Determines whether a simulation is running

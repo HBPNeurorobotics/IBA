@@ -1,0 +1,9 @@
+string brain_type               # Type of the brain (currently "py" or "h5")
+string brain_populations        # Type of the brain populations: json
+string data_type                # Type of data in brain_data: text or base64
+int32 change_population         # Force to change transfer functions
+int32 ASK_RENAME_POPULATION=0   # User has not confirmed change yet
+int32 DO_RENAME_POPULATION=1    # Premission granted, so we change TFs
+int32 NOT_CHANGE_POPULATION=2   # User disallowes us to make changes, any other value would work
+---
+string message            # Error message
